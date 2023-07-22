@@ -1,0 +1,32 @@
+body {
+    font: normal 16px/1.5 Arial, sans-serif;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .nav ul li a {
+    transition: color 0.4s, background-color 0.4s;
+  }
+  
+  .nav ul li a:hover {
+    color: white;
+    background-color: steelblue;
+  }
+  
+  main {
+    padding: 2em 0;
+  }
+  
+  .timeline {
+    position: relative;
+  }
+  
+  /* Additional styles and animations go here */
+  
