@@ -1,48 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Resume Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Resume</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-     <h1>John Doe</h1>
-     <h2>Front-End engineer</h2>
+    <h1>My Resume</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+    </nav>
   </header>
-  
-  <nav>
-     <ul>
-         <li><a href="#">About Me</a></li>
-         <li><a href="#">Experience</a></li>
-         <li><a href="#">Projects</a></li>
-         <li><a href="#">Contact</a></li>
-     </ul>
-  </nav>
-  
-  <main>
-     <section id="about">
-       <p><strong>About Me:</strong> John Doe is a passionate front-end developer...</p>
-     </section>
-     
-     <section id="experience">
-       <div class="timeline">
-         <div class="event">
-           <h3>Job Title</h3>
-           <p>Company Name</p>
-         </div>
-       </div>
-     </section>
-     
-     <section id="projects">
-       <!-- JS will generate content dynamically -->
-     </section>
-     
-     <section id="contact">
-       <form>
-         <!-- Form fields go here -->
-       </form>
-     </section>
-  </main>
-  
-  <footer>© 2023 John Doe</footer>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a highly motivated and experienced software engineer with a passion for building innovative and user-friendly products. I am proficient in a variety of programming languages and technologies, and I am always eager to learn new things.</p>
+    <p>I am a team player and I have a strong work ethic. I am also a creative thinker and I am always looking for new ways to solve problems.</p>
+    <img src="profile.jpg" alt="Profile Picture">
+  </section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Programming Languages: Python, Java, JavaScript</li>
+      <li>Web Development: HTML, CSS, React</li>
+      <li>Databases: MySQL, PostgreSQL</li>
+      <li>Machine Learning: TensorFlow, PyTorch</li>
+      <li>Other: Git, GitHub, Agile</li>
+    </ul>
+    <div id="skills-chart"></div>
+  </section>
+  <section id="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li>Software Engineer, Acme Corporation (2020-Present)</li>
+      <li>Web Developer, XYZ Company (2018-2020)</li>
+      <li>Intern, ABC Organization (2017)</li>
+    </ul>
+  </section>
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li>Master of Science in Computer Science, Stanford University (2020)</li>
+      <li>Bachelor of Science in Computer Science, University of California, Berkeley (2018)</li>
+    </ul>
+  </section>
+  <footer>
+    <p>Copyright &copy; 2023 My Name</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
+
